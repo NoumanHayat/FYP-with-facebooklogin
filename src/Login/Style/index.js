@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet,Dimensions} from 'react-native';
+import {StyleSheet, Dimensions} from 'react-native';
 export const indexStyle = StyleSheet.create({
   loginButton: {
     border: 3,
@@ -23,67 +23,70 @@ export const indexStyle = StyleSheet.create({
     height: 200,
     marginBottom: 70,
   },
+  facebookLogin: {
+    borderRadius: 10,
+
+    margin: 10,
+    flexDirection: 'row',
+    padding: 10,
+    paddingLeft: 25,
+    paddingRight: 25,
+  },
 });
 export const loginStyle = StyleSheet.create({
   background: {
-    flex:1,
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     height: Dimensions.get('window').height / 2.5,
   },
-  logo:{
+  logo: {
     width: 150,
     height: 150,
   },
-  Fitnessio:{
-    color:'white',
-    fontSize: 32
+  Fitnessio: {
+    color: 'white',
+    fontSize: 32,
   },
-  bottom:{
-   
+  bottom: {
     backgroundColor: 'white',
-    
-    borderTopStartRadius:45,
-    borderTopEndRadius:45,
-    bottom:35,
-    
+
+    borderTopStartRadius: 45,
+    borderTopEndRadius: 45,
+    bottom: 35,
   },
-  bottomContainer:{
-    padding:45,
-    paddingBottom:10
-    
+  bottomContainer: {
+    padding: 45,
+    paddingBottom: 10,
   },
-  welcomeText:{
-    color:'#1f1b5c',
-    fontSize:23
+  welcomeText: {
+    color: '#1f1b5c',
+    fontSize: 23,
   },
-  loginContainer:{
-    padding:30,
-    paddingTop:10,
-    paddingBottom:10
+  loginContainer: {
+    padding: 30,
+    paddingTop: 10,
+    paddingBottom: 10,
   },
-  forgotPasswordContainer:{
+  forgotPasswordContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    
   },
-  checkbox:{
-    fontSize: 15
-
+  checkbox: {
+    fontSize: 15,
   },
-  forgotPassword:{
-    paddingLeft:'10%'
+  forgotPassword: {
+    paddingLeft: '10%',
   },
-  forgotPasswordText:{
+  forgotPasswordText: {
     color: 'blue',
-    textAlign: 'right'
-    
+    textAlign: 'right',
   },
   linearGradient: {
     flex: 1,
     paddingLeft: 15,
     paddingRight: 15,
-    borderRadius: 5
+    borderRadius: 5,
   },
   buttonText: {
     fontSize: 18,
@@ -96,64 +99,58 @@ export const loginStyle = StyleSheet.create({
 });
 export const SignupStyle = StyleSheet.create({
   background: {
-    flex:1,
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     height: Dimensions.get('window').height / 3.9,
   },
-  logo:{
+  logo: {
     width: 150,
     height: 150,
   },
-  Fitnessio:{
-    color:'white',
-    fontSize: 32
+  Fitnessio: {
+    color: 'white',
+    fontSize: 32,
   },
-  bottom:{
-   
+  bottom: {
     backgroundColor: 'white',
-    
-    borderTopStartRadius:45,
-    borderTopEndRadius:45,
-    bottom:45,
-    
+
+    borderTopStartRadius: 45,
+    borderTopEndRadius: 45,
+    bottom: 45,
   },
-  bottomContainer:{
-    padding:45,
-    paddingBottom:10
-    
+  bottomContainer: {
+    padding: 45,
+    paddingBottom: 10,
   },
-  welcomeText:{
-    color:'#1f1b5c',
-    fontSize:23
+  welcomeText: {
+    color: '#1f1b5c',
+    fontSize: 23,
   },
-  loginContainer:{
-    padding:30,
-    paddingTop:10,
-    paddingBottom:10
+  loginContainer: {
+    padding: 30,
+    paddingTop: 10,
+    paddingBottom: 10,
   },
-  forgotPasswordContainer:{
+  forgotPasswordContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    
   },
-  checkbox:{
-    fontSize: 15
-
+  checkbox: {
+    fontSize: 15,
   },
-  forgotPassword:{
-    paddingLeft:'10%'
+  forgotPassword: {
+    paddingLeft: '10%',
   },
-  forgotPasswordText:{
+  forgotPasswordText: {
     color: 'blue',
-    textAlign: 'right'
-    
+    textAlign: 'right',
   },
   linearGradient: {
     flex: 1,
     paddingLeft: 15,
     paddingRight: 15,
-    borderRadius: 5
+    borderRadius: 5,
   },
   buttonText: {
     fontSize: 18,
